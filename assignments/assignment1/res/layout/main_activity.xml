@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:text="@string/defaultURL"
         android:hint="@string/enter_url"
         android:inputType="text|textMultiLine|textUri" >
     </EditText>

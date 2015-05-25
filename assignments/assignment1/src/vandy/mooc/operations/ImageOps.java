@@ -302,6 +302,9 @@ public class ImageOps {
     public void addUrl() {
         // Get the user input (if any).
         final String url = mUrlEditText.getText().toString();
+        
+        Uri mDefaultUrl =
+                Uri.parse("http://www.dre.vanderbilt.edu/~schmidt/robot.png");
 
         if (URLUtil.isValidUrl(url)) {
             // Add valid URL to running list for download.
