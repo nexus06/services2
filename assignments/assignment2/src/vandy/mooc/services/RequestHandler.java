@@ -103,8 +103,6 @@ class RequestHandler extends Handler {
         // Get the directory pathname where the image will be stored.
         // TODO -- you fill in here.
         final String pathName = requestMessage.getImagePathname();
-
-        
         
         // Get the requestCode for the operation that was invoked by
         // the Activity.
